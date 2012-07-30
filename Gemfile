@@ -7,6 +7,10 @@ gem 'rails', '3.2.7'
 
 gem "mongoid", "~> 3.0.0"
 
+
+gem "activeadmin-mongoid", :git => "git://github.com/elia/activeadmin-mongoid.git"
+gem 'devise'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
