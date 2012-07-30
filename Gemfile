@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.7'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+# gem 'rails', :git => 'git://github.com/rails/rails.
 
-
+gem "mongoid", "~> 3.0.0"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -35,3 +35,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :develop do
+  gem "rspec-rails"
+  gem "autotest-rails"
+  gem "simplecov"
+end
